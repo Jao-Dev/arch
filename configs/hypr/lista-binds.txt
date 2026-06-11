@@ -1,0 +1,17 @@
+"SUPER + ALT + 1" = desligar o pc
+"SUPER + ALT + 2" = reiniciar o pc
+"SUPER + ALT + 3" = suspender o pc
+
+"SUPER + /" = abrir o hyprland.conf
+"SUPER + ." = abrir lista de binds personalizados
+
+"SUPER + ENTER" = abrir o terminal
+"SUPER + R" = app launcher
+
+"SUPER + Barra de espaço" = abrir e fechar a waybar
+"SUPER + W" = fechar janela
+"SUPER + E" = abrir explorador de arquivo
+"SUPER + F" = tela cheia
+"SUPER + J" = mudar layout da janela
+"SUPER + V" = tornar a janela flutuante
+

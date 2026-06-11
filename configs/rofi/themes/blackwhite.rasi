@@ -1,0 +1,66 @@
+* {
+    bg:     #000000;
+    fg:     #ffffff;
+    border: #ffffff;
+
+    background-color: @bg;
+    text-color: @fg;
+}
+
+window {
+    width: 10%;
+    location: center;
+
+    border: 2px;
+    border-color: @border;
+
+    background-color: @bg;
+    border-radius: 0px;
+}
+
+mainbox {
+    children: [inputbar, listview];
+    spacing: 10px;
+    padding: 12px;
+}
+
+inputbar {
+    children: [prompt, entry];
+    background-color: @bg;
+    text-color: @fg;
+}
+
+prompt {
+    text-color: @fg;
+    padding: 0px 8px 0px 0px;
+}
+
+entry {
+    placeholder: "..........";
+}
+
+listview {
+    lines: 1;
+    columns: 1;
+    fixed-height: true;
+    dynamic: false;
+    scrollbar: false;
+
+    background-color: @bg;
+}
+
+element {
+    padding: 6px;
+    background-color: @bg;
+    text-color: @fg;
+}
+
+element selected {
+    background-color: #ffffff;
+    text-color: #000000;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}

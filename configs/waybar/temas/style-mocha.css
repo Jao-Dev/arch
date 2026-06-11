@@ -1,0 +1,58 @@
+@define-color bgColor rgb(34, 30, 65);
+@define-color accentColor rgb(255, 255, 255);
+@define-color colorAM rgb(57,214,233);
+
+* {
+    border: none;
+    font-family: "SF Pro Display", "0xProto Nerd Font";
+    font-size: 12px;
+    
+    min-height: 0;
+    margin: 0;
+    padding: 0px 5px;
+    font-weight: 800;
+
+}
+
+window#waybar {
+    background:alpha(@bgColor, 0.8);
+    color: white;
+}
+
+tooltip {
+  background: rgba(34, 30, 65, 0.2);
+  border: 0.5px solid white;
+}
+tooltip label {
+  color: white;
+}
+
+#workspaces {
+    transition: all 150ms ease-in-out;
+}
+
+#workspaces button {
+    transition: all 150ms ease-in-out;
+    padding: 1px 0px;
+    background:alpha(@bgColor, 0.3);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    margin: 0 2px;
+    margin-top: 0;
+}
+
+#workspaces button.active {
+    border: 1px solid alpha(#121212, 0.4);
+    background-color:alpha(yellow, 0.1);
+    color:alpha(@colorAM, 1);
+    transition: all 150ms ease-in-out;
+    min-width: 1px;
+    border-radius: 8px;
+}
+
+#mpris{
+	background:alpha(yellow, 0.1);
+	color:alpha(@colorAM, 1);
+	border-radius: 8px;
+}

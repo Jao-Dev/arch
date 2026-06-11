@@ -1,0 +1,7 @@
+@theme "~/.config/rofi/themes/blackwhite.rasi"
+
+configuration {
+    modi: "drun,run";
+    show-icons: false;
+    display-drun: "Apps";
+}
