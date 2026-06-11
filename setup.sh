@@ -11,16 +11,16 @@ pacman -S wiremix ufw udisks2 udiskie networkmanager power-profiles-daemon ffmpe
 pacman -S bluez bluez-utils man-db
 
 #
-pacman -S slurp kitty bluetui vlc vlc-plugins-all pix grim neovim nwg-look flatpak mpv waybar speedtest-cli rofi localsend qutebrowser evince fastfetch
+pacman -S slurp kitty bluetui vlc vlc-plugins-all grim neovim nwg-look flatpak mpv waybar speedtest-cli rofi qutebrowser evince fastfetch
 pacman -S 7zip zip unzip unrar
 pacman -S gsettings-qt6 gsettings-qt5 cliphist wl-clipboard polkit-kde-agent
 
 pacman -S --needed git base-devel
 
-#####
+##### se pa tem que rodar dps manualmente
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
 yay -Y --gendb
-yay -Sy brave-origin-bin
+yay -Sy brave-origin-bin localsend pix
