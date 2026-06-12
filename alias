@@ -1,0 +1,10 @@
+fastfetch
+
+alias v="nvim"
+alias ff="fastfetch"
+alias pp="powerprofilesctl"
+alias montar="udisksctl mount -b"
+alias pdf="evince"
+alias bateria="upower -i $(upower -e | grep BAT)"
+alias wifiDown="nmcli device disconnect wlan0"
+alias wifiUp="nmcli device connect wlan0"
